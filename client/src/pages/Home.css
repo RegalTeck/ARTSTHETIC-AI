@@ -1,0 +1,109 @@
+.Home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin: 5px;
+  flex-wrap: nowrap;
+}
+
+.Home-one {
+  width: 300px;
+  height: 370px;
+  contain: content;
+}
+.Home-two {
+  width: 300px;
+  height: 370px;
+  contain: content;
+}
+.Home-three {
+  width: 300px;
+  height: 370px;
+  contain: content;
+}
+
+@media (max-width: 930px) {
+  .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 2px;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+
+  .Home-one {
+    width: 780px;
+    height: 230px;
+    contain: content;
+  }
+  .Home-two {
+    width: 780px;
+    height: 230px;
+    contain: content;
+  }
+  .Home-three {
+    width: 780px;
+    height: 230px;
+    contain: content;
+  }
+}
+@media (max-width: 700px) {
+  .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin: 2px;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+
+  .Home-one {
+    width: 600px;
+    height: 230px;
+    contain: content;
+  }
+  .Home-two {
+    width: 600px;
+    height: 230px;
+    contain: content;
+  }
+  .Home-three {
+    width: 600px;
+    height: 230px;
+    contain: content;
+  }
+}
+@media (max-width: 580px) {
+  .Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: 2px;
+    padding: 5px;
+    flex-wrap: wrap;
+    width: fit-content;
+  }
+
+  .Home-one {
+    width: 500px;
+    height: 230px;
+    contain: content;
+  }
+  .Home-two {
+    width: 500px;
+    height: 230px;
+    contain: content;
+  }
+  .Home-three {
+    width: 500px;
+    height: 230px;
+    contain: content;
+  }
+}
