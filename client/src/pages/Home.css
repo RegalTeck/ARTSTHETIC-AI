@@ -2,22 +2,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3px;
+  gap: 8px;
   margin: 5px;
   flex-wrap: nowrap;
 }
 
 .Home-one {
-  width: 300px;
-  height: 370px;
-  contain: content;
-}
-.Home-two {
-  width: 300px;
-  height: 370px;
-  contain: content;
-}
-.Home-three {
   width: 300px;
   height: 370px;
   contain: content;
@@ -32,26 +22,16 @@
     margin: 2px;
     padding: 5px;
     flex-wrap: wrap;
-    width: fit-content;
+    flex: 1;
   }
 
   .Home-one {
-    width: 780px;
-    height: 230px;
-    contain: content;
-  }
-  .Home-two {
-    width: 780px;
-    height: 230px;
-    contain: content;
-  }
-  .Home-three {
-    width: 780px;
+    width: 100%;
     height: 230px;
     contain: content;
   }
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .Home {
     display: flex;
     justify-content: center;
@@ -60,50 +40,41 @@
     margin: 2px;
     padding: 5px;
     flex-wrap: wrap;
-    width: fit-content;
+    flex: 1;
   }
 
   .Home-one {
-    width: 600px;
-    height: 230px;
-    contain: content;
-  }
-  .Home-two {
-    width: 600px;
-    height: 230px;
-    contain: content;
-  }
-  .Home-three {
-    width: 600px;
+    width: 100%;
     height: 230px;
     contain: content;
   }
 }
-@media (max-width: 580px) {
+
+@media (max-width: 414px) {
   .Home {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2px;
-    margin: 2px;
-    padding: 5px;
+    margin: 1px;
+    padding: 2px;
     flex-wrap: wrap;
-    width: fit-content;
+    flex: 1;
   }
 
   .Home-one {
-    width: 500px;
-    height: 230px;
+    width: 100%;
+    height: 200px;
     contain: content;
   }
-  .Home-two {
-    width: 500px;
-    height: 230px;
-    contain: content;
+  .header-h {
+    font-size: 12px;
+    padding: 1px;
+    margin: 1px;
+    border: 0;
+    font-weight: bold;
   }
-  .Home-three {
-    width: 500px;
-    height: 230px;
-    contain: content;
+  .home-inner {
+    font-size: 10px;
+    border: 0;
   }
 }

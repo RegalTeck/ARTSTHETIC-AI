@@ -84,7 +84,7 @@ const Home = () => {
 
       <div className="Home">
         <div className="Home-one rounded-lg mt-2 mb-2 border-2 px-4 py-4 transition ease-in-out delay-150 bg-gray-200 hover:-translate-x-1 hover:-translate-y-1 hover:scale-100 hover:text-blue-100 hover:bg-gray-400  duration-300">
-          <h3 className="mt-2 text-[22px] max-w[500px] mb-5 text-center hover:text-blue-600">
+          <h3 className="header-h mt-2 max-w[500px] mb-5 text-center hover:text-blue-600">
             Inspire and be Inspired
           </h3>
           <p className="home-inner text-[#000000] tracking-normal">
@@ -95,8 +95,8 @@ const Home = () => {
             them to your project.
           </p>
         </div>
-        <div className="Home-two rounded-lg mt-2 mb-2 border-2 px-4 py-4 transition ease-in-out delay-150 bg-gray-200 hover:-translate-x-1 hover:-translate-y-1 hover:scale-100 hover:text-blue-100 hover:bg-gray-400 duration-300 ">
-          <h3 className="mt-2 text-[22px] max-w[500px] mb-5 text-center hover:text-blue-600">
+        <div className="Home-one rounded-lg mt-2 mb-2 border-2 px-4 py-4 transition ease-in-out delay-150 bg-gray-200 hover:-translate-x-1 hover:-translate-y-1 hover:scale-100 hover:text-blue-100 hover:bg-gray-400 duration-300 ">
+          <h3 className="header-h mt-2 max-w[500px] mb-5 text-center hover:text-blue-600">
             Create beauty, Share and Showcase
           </h3>
           <p className="home-inner text-[#000000] tracking-normal">
@@ -107,8 +107,8 @@ const Home = () => {
             prints. Let the world experience your unique artistic vision.
           </p>
         </div>
-        <div className="Home-three rounded-lg mt-2 mb-2 border-2 px-4 py-4 transition ease-in-out delay-150 bg-gray-200 hover:-translate-x-1 hover:-translate-y-1 hover:scale-100 hover:text-blue-100 hover:bg-gray-400 duration-300 ">
-          <h3 className="mt-2 text-[22px] max-w[500px] mb-2 text-center hover:text-blue-600">
+        <div className="Home-one rounded-lg mt-2 mb-2 border-2 px-4 py-4 transition ease-in-out delay-150 bg-gray-200 hover:-translate-x-1 hover:-translate-y-1 hover:scale-100 hover:text-blue-100 hover:bg-gray-400 duration-300 ">
+          <h3 className="header-h mt-2 max-w[500px] mb-2 text-center hover:text-blue-600">
             Intuitive Interface
           </h3>
           <p className="home-inner text-[#000000] tracking-normal">

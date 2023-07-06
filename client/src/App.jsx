@@ -7,12 +7,12 @@ import { Home, CreatePost } from "./pages";
 const App = () => {
   return (
     <BrowserRouter>
-      <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
+      <header className="w-full flex justify-between items-center bg-white sm:px-4 px-3 py-3 border-b border-b-[#e6ebf4]">
         <Link to="/">
           <img
             src={logo}
             alt="logo"
-            className="w-28 object-container h-48 w-96"
+            className="w-28 object-container h-15 w-96"
           />
         </Link>
 
