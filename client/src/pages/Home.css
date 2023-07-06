@@ -67,14 +67,14 @@
     contain: content;
   }
   .header-h {
-    font-size: 12px;
+    font-size: 14px;
     padding: 1px;
     margin: 1px;
     border: 0;
     font-weight: bold;
   }
   .home-inner {
-    font-size: 10px;
+    font-size: 12px;
     border: 0;
   }
 }
